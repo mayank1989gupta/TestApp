@@ -34,4 +34,9 @@ public class TestApp {
 	public String test1(@RequestParam(value="name") String name) {
 		return "Hello!!" + name;
 	}
+	
+	@GetMapping("/testApp2")
+	public String test2(@RequestParam(value="name") String name) {
+		return "Hello!!" + name;
+	}
 }
